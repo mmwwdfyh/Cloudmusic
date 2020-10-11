@@ -1,0 +1,15 @@
+<!--miniprogram/pages/home/home.wxml-->
+<view class="wraper">
+  <!-- 轮播图 -->
+  <swiper class="swiper" autoplay circular indicator-dots indicator-active-color="#ffffff">
+    <swiper-item wx:for="{{swiperImgae}}" wx:key="index">
+      <image src="{{item.url}}" mode="widthFix"></image>
+    </swiper-item>
+  </swiper>
+  <!-- 歌单图片 -->
+  <view class="playlist">
+    <block wx:for="{{playlist}}" wx:key="index">
+      <f-playlist playlist="{{item}}"></f-playlist>
+    </block>
+  </view>
+</view>

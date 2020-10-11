@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/find/find",
+    "pages/userhome/userhome",
+    "pages/dome/dome",
+    "pages/musiclist/musiclist"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d43c33",
+    "navigationBarTitleText": "音乐",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "音乐",
+        "iconPath": "./images/tabimage/2-3_music.png",
+        "selectedIconPath": "./images/tabimage/2-3_music-actived.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "./images/tabimage/2-3_blog.png",
+        "selectedIconPath": "./images/tabimage/2-3_blog-actived.png"
+      },
+      {
+        "pagePath": "pages/userhome/userhome",
+        "text": "我的",
+        "iconPath": "./images/tabimage/2-3_profile.png",
+        "selectedIconPath": "./images/tabimage/2-3_profile-actived.png"
+      }
+    ]
+  }
+}

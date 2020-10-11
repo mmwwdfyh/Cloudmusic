@@ -1,0 +1,6 @@
+<!--components/playlist/playlist.wxml-->
+<view class="playlist" bindtap="gotomilist">
+  <image src="{{playlist.picUrl}}"></image>
+  <view class="palycount">{{_count}}</view>
+  <view class="palyname">{{playlist.name}}</view>
+</view>
